@@ -5,13 +5,17 @@
   "author": "Adam Jones (domdomegg)",
   "license": "MIT",
   "scripts": {
-    "start": "serverless offline start"
+    "start": "serverless offline start",
+    "build": "serverless package",
+    "//": "checks serverless offline can run for at least 10 seconds without crashing",
+    "test": "timeout 10s serverless offline start; test $? -eq 124"
   },
   "dependencies": {
     "@aws-sdk/client-sesv2": "^3.98.0"
   },
   "devDependencies": {
     "aws-ses-v2-local": "^2.0.1",
+    "serverless": "^3.19.0",
     "serverless-offline": "^8.8.0",
     "serverless-offline-ses-v2": "^1.0.1"
   }
