@@ -1,6 +1,6 @@
 # AWS SES for sending emails with offline support
 
-Sending emails on a schedule with AWS EventBridge, AWS Lambda, AWS SES with offline support
+Sending emails on a schedule with AWS EventBridge, AWS Lambda, AWS SES with offline support using the [Serverless](https://www.serverless.com/) framework.
 
 ## How it works
 
