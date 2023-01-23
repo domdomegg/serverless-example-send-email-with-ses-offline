@@ -4,6 +4,7 @@
   "description": "Sending emails on a schedule with AWS EventBridge, AWS Lambda, AWS SES with offline support",
   "author": "Adam Jones (domdomegg)",
   "license": "MIT",
+  "private": true,
   "scripts": {
     "start": "serverless offline start",
     "build": "serverless package",
