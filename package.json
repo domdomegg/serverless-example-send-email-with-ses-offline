@@ -12,7 +12,7 @@
     "test": "timeout 10s serverless offline start; test $? -eq 124"
   },
   "dependencies": {
-    "@aws-sdk/client-sesv2": "^3.98.0"
+    "@aws-sdk/client-sesv2": "^3.350.0"
   },
   "devDependencies": {
     "aws-ses-v2-local": "^2.0.1",
