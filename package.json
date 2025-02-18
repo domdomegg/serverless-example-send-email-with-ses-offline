@@ -17,7 +17,7 @@
   "devDependencies": {
     "aws-ses-v2-local": "^2.0.1",
     "serverless": "^3.19.0",
-    "serverless-offline": "^12.0.3",
+    "serverless-offline": "^14.4.0",
     "serverless-offline-ses-v2": "^1.0.1"
   }
 }
